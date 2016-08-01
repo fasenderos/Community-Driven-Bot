@@ -1827,8 +1827,8 @@ WHEN f$OpenRaiseOrOpenLimp
 	WHEN InEarlyPosition1 AND listOpenLimpEP1 Call Force	
 	WHEN InEarlyPosition2 AND listOpenRaiseEP2 RaiseTo f$StandardRaise Force
 	WHEN InEarlyPosition2 AND listOpenLimpEP2 Call Force	
-	WHEN InEarlyPosition2 AND listOpenRaiseEP3 RaiseTo f$StandardRaise Force
-	WHEN InEarlyPosition2 AND listOpenLimpEP3 Call Force	
+	WHEN InEarlyPosition3 AND listOpenRaiseEP3 RaiseTo f$StandardRaise Force
+	WHEN InEarlyPosition3 AND listOpenLimpEP3 Call Force	
 	WHEN InMiddlePosition1 AND listOpenRaiseMP1 RaiseTo f$StandardRaise Force
 	WHEN InMiddlePosition1 AND listOpenLimpMP1 Call Force	
 	WHEN InMiddlePosition2 AND listOpenRaiseMP2 RaiseTo f$StandardRaise Force
@@ -1848,8 +1848,8 @@ WHEN f$LimpOrIsolateLimpers
 	WHEN InEarlyPosition1 AND listLimpEP1 Call Force	
 	WHEN InEarlyPosition2 AND listIsolateLimpersEP2 RaiseTo f$StandardRaise Force
 	WHEN InEarlyPosition2 AND listLimpEP2 Call Force	
-	WHEN InEarlyPosition2 AND listIsolateLimpersEP3 RaiseTo f$StandardRaise Force
-	WHEN InEarlyPosition2 AND listLimpEP3 Call Force	
+	WHEN InEarlyPosition3 AND listIsolateLimpersEP3 RaiseTo f$StandardRaise Force
+	WHEN InEarlyPosition3 AND listLimpEP3 Call Force	
 	WHEN InMiddlePosition1 AND listIsolateLimpersMP1 RaiseTo f$StandardRaise Force
 	WHEN InMiddlePosition1 AND listLimpMP1 Call Force	
 	WHEN InMiddlePosition2 AND listIsolateLimpersMP2 RaiseTo f$StandardRaise Force
